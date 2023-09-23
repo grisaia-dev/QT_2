@@ -15,6 +15,8 @@ set(PROJECT_SOURCES_FILES main.cpp)
 set(PROJECT_HEADERS_FILES 
 	lib/MainWindow.hpp
 	lib/MainWindow.ui
+	lib/DialogWindow.hpp
+	lib/DialogWindow.ui
 )
 
 qt_add_executable(${PROJECT_NAME} MANUAL_FINALIZATION ${PROJECT_SOURCES_FILES} ${PROJECT_HEADERS_FILES})
